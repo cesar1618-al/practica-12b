@@ -1,0 +1,102 @@
+html{
+    min-height: 100% ;
+    min-width: 100% ;
+    background-image: linear-gradient(rgb(255, 255, 255), lightcyan);
+    background-image: url(fondo.jpg);
+    background-size: cover;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 25px;}
+
+#barraSuperior{
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+h1{
+    color: rgba(170, 57, 23, 0.842);
+    text-shadow: 1px 1px 2px dimgray;
+}
+
+
+.campo{
+    display: flex;
+    font-family: sans-serif;
+    flex-direction: column;
+}
+
+legend{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(170, 57, 23, 0.842);
+    text-align: center;
+}
+
+.espacio{
+    padding: 8px;
+    color: rgba(170, 57, 23, 0.842);
+    display: flex;
+    justify-content: center;}
+
+.boton, .radio{
+    margin-left: 20px;
+    margin-right: 20px; }
+
+.boton{
+    background-color: rgba(170, 57, 23, 0.842);
+    color: white;
+    border-style: outset;
+    padding: 5px;}
+
+footer{
+    font-family: sans-serif;
+    font-size: 10px;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+color: rgba(170, 57, 23, 0.842);
+}
+
+input, label{
+    margin-left: 25px;
+    margin: 5px;
+    color: rgba(170, 57, 23, 0.842);
+}
+
+.opciones{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+textarea{
+    margin-top: 25px;
+}
+
+.cumple{
+    padding: 8px;
+    color: rgba(170, 57, 23, 0.842);
+    display: flex;
+    justify-content: center;}
+
+.direc{
+    padding: 8px;
+    color: rgba(170, 57, 23, 0.842);
+    display: flex;
+    justify-content: center;
+}
+
+.cod{
+    padding: 8px;
+    color: rgba(170, 57, 23, 0.842);
+    display: flex;
+    justify-content: center;
+}
